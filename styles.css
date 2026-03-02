@@ -1,0 +1,61 @@
+.container{
+  display:grid;
+  grid-template-columns: 1fr;
+  justify-items:center;
+  background-color: lightgrey;
+}
+
+.container h1{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    margin-top: 0;
+    height: 72px;
+
+}
+
+
+.postal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 640px;
+    background-color: white;
+    margin: 41px;
+    border-radius: 9px;
+    
+}
+
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.footer{
+        width: 100%;
+    text-align: start;
+    padding-left: 18px;
+   font-size: 17px;
+}
+
+.hr{
+    color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
